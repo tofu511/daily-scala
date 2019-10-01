@@ -5,7 +5,7 @@ name := "learning-scala2"
 
 version := "0.0.1"
 
-scalaVersion := "2.11.5"
+scalaVersion := "2.12.8"
 
 organization := "com.github.tanacasino"
 
@@ -28,7 +28,7 @@ shellPrompt := { state =>
 
 libraryDependencies ++= {
   Seq(
-   "org.scalatest"  % "scalatest_2.11" % "2.2.1" % "test"
+   "org.scalatest" %% "scalatest" % "3.0.8" % "test"
   )
 }
 
